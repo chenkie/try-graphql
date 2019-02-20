@@ -1,0 +1,39 @@
+{
+  "contacts": [
+    {
+      "id": "cjs9chznzac9d0b56kez4b5pd",
+      "firstName": "Marty",
+      "lastName": "McFly",
+      "description": "Martin Seamus \\\"Marty\\\" McFly is the son of George McFly and Lorraine Baines McFly. Marty travels between the past and the future, encountering his ancestors and descendants. Marty and his friend Doc Brown help restore the space-time continuum while encountering Biff Tannen (or members of the Tannen clan) at various points in time.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/Michael_J._Fox_as_Marty_McFly_in_Back_to_the_Future%2C_1985.jpg"
+    },
+    {
+      "id": "cjs9cillhacbu0b56a26rge0q",
+      "firstName": "Emmett",
+      "lastName": "Brown",
+      "description": "Doctor Emmett Lathrop \\\"Doc\\\" Brown is the inventor of the DeLorean time machine. At various points in time, Doc helps Marty restore the space-time continuum and reverse the changes that were caused by time travel.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/97/Doc_Brown.JPG"
+    },
+    {
+      "id": "cjs9cj6iw5s3b0b0920vtnvj3",
+      "firstName": "Biff",
+      "lastName": "Tannen",
+      "description": "Biff Howard Tannen is a local bully who harassed George McFly, He comes from a long line of bullies in Hill Valley, most of whom harassed members of the McFly family. Biff is also a descendant of Buford Tannen who is one of Hill Valley's outlaws during the 1880s.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/15/BiffTannenBackToTheFuture1985.jpg"
+    },
+    {
+      "id": "cjs9cjsr2acgd0b56k610iwf1",
+      "firstName": "George",
+      "lastName": "McFly",
+      "description": "George Douglas McFly is the father of Marty, Linda and Dave from the union with his wife Lorraine Baines McFly.",
+      "image": "https://yt3.ggpht.com/a-/AN66SAyUDOwu4LNdkmfIUIclB7-f3tV9-esT5E1TNw=s900-mo-c-c0xffffffff-rj-k-no"
+    },
+    {
+      "id": "cjs9codpu5sk90b09sv4oqor3",
+      "firstName": "Lorraine",
+      "lastName": "McFly",
+      "description": "Lorraine Baines-McFly is the wife of George McFly and the mother of Marty, Linda and Dave. She is the eldest daughter of Sam and Stella Baines, and sister of Milton, Sally, Toby, and Joey.",
+      "image": "https://upload.wikimedia.org/wikipedia/it/thumb/e/e6/Lorraine_Baines.jpg/260px-Lorraine_Baines.jpg"
+    }
+  ]
+}

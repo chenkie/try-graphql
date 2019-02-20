@@ -1,0 +1,28 @@
+{
+  "message": {
+    "title": "Roads? Where we going we don’t need roads.",
+    "content": "Hey, Doc. You’d better back up, we don’t have enough road to get up to 88.",
+    "author": "Marty McFly",
+    "timestamp": "\"2015-10-21T00:00:00.000Z\""
+  },
+  "messages": [
+    {
+      "title": "Roads? Where we going we don’t need roads.",
+      "content": "Hey, Doc. You’d better back up, we don’t have enough road to get up to 88.",
+      "author": "Marty McFly",
+      "timestamp": "\"2015-10-21T00:00:00.000Z\""
+    },
+    {
+      "title": "Whoa, this is heavy.",
+      "content": "There’s that word again: \"heavy.\" Why are things so heavy in the future? Is there a problem with the Earth’s gravitational pull? ",
+      "author": "Doc Brown",
+      "timestamp": "\"2015-10-21T00:00:00.000Z\""
+    },
+    {
+      "title": "Great Scott!",
+      "content": "No, I know; you *did* send me back to the future. But I'm back - I'm back *from* the future.",
+      "author": "Marty McFly",
+      "timestamp": "\"2015-10-21T00:00:00.000Z\""
+    }
+  ]
+}

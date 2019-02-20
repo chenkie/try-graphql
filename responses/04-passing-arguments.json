@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "id": "cjs9chznzac9d0b56kez4b5pd",
+      "firstName": "Marty",
+      "lastName": "McFly"
+    },
+    {
+      "id": "cjs9cjsr2acgd0b56k610iwf1",
+      "firstName": "George",
+      "lastName": "McFly"
+    },
+    {
+      "id": "cjs9codpu5sk90b09sv4oqor3",
+      "firstName": "Lorraine",
+      "lastName": "McFly"
+    }
+  ]
+}

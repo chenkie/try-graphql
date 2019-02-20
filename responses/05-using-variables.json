@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "id": "cjs9cjsr2acgd0b56k610iwf1",
+      "firstName": "George",
+      "lastName": "McFly",
+      "description": "George Douglas McFly is the father of Marty, Linda and Dave from the union with his wife Lorraine Baines McFly."
+    },
+    {
+      "id": "cjs9codpu5sk90b09sv4oqor3",
+      "firstName": "Lorraine",
+      "lastName": "McFly",
+      "description": "Lorraine Baines-McFly is the wife of George McFly and the mother of Marty, Linda and Dave. She is the eldest daughter of Sam and Stella Baines, and sister of Milton, Sally, Toby, and Joey."
+    }
+  ]
+}
