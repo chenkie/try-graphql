@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import GraphiQL from 'graphiql';
 import 'graphiql-material-theme';
+import isEqual from 'lodash.isequal';
 
 import { withRouter } from 'next/router';
 
@@ -29,7 +30,7 @@ const expectedResponses = [
 function isCorrectResponse(response, step) {
   const expectedResponse = expectedResponses.find(r => r.id === step);
   if (expectedResponse && expectedResponse.data) {
-    return response === JSON.stringify(expectedResponse.data);
+    return isEqual(response, expectedResponse.data)
   }
   return false;
 }
@@ -69,11 +70,10 @@ function getGraphQLFetcher(url, id, tutorialSteps, emitter) {
     }).then(async response => {
       const { data } = await response.clone().json();
       const isSchema = data.hasOwnProperty('__schema');
-      const stringifiedResponse = JSON.stringify(data);
       const currentStep = tutorialSteps.find(s => s.id === id);
 
       if (currentStep && currentStep.id && !isSchema) {
-        if (isCorrectResponse(stringifiedResponse, currentStep.id)) {
+        if (isCorrectResponse(data, currentStep.id)) {
           updateProgress(tutorialSteps, currentStep.id, true, emitter);
         } else {
           updateProgress(tutorialSteps, currentStep.id, false, emitter);
