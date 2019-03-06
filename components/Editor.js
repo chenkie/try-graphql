@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import GraphiQL from 'graphiql';
-import 'graphiql-material-theme';
 import isEqual from 'lodash.isequal';
 
 import { withRouter } from 'next/router';
@@ -30,7 +29,7 @@ const expectedResponses = [
 function isCorrectResponse(response, step) {
   const expectedResponse = expectedResponses.find(r => r.id === step);
   if (expectedResponse && expectedResponse.data) {
-    return isEqual(response, expectedResponse.data)
+    return isEqual(response, expectedResponse.data);
   }
   return false;
 }

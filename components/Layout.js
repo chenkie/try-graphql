@@ -79,7 +79,7 @@ const Layout = props => (
           color: #ffc5e8 !important;
         }
 
-        pre {
+        .prism-code {
           letter-spacing: 1px;
           background-image: linear-gradient(
             to bottom right,
