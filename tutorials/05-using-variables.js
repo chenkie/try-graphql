@@ -39,7 +39,7 @@ The second is that when we declare a variable, it *must* be given a \`type\`. In
 
 What's that \`!\` doing there you ask? That means that there *must* be a value for the variable. If we left the \`!\` off, passing a value in for the variable would be optional.
 
-The general recipie for declaring a variable goes: \`$\` + **variable name** + \`:\` + **type**.
+The general recipe for declaring a variable goes: \`$\` + **variable name** + \`:\` + **type**.
 
 After the variable is declared, we're able to use it in our query. That looks like this:
 
